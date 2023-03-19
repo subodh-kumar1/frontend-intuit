@@ -19,7 +19,8 @@ const APP_CONSTANTS = {
     AUTHENTICATED: "authenticatedRoute",
     UNAUTHENTICATED: "unauthenticatedRoute",
   },
-  BASE_URL: "http://localhost:5000/api",
+  BASE_URL:
+    "http://springbootapplication-env.eba-3mbm5mj3.us-east-1.elasticbeanstalk.com/api",
   USER_TYPE: {
     CUSTOMER: "CUSTOMER",
     EXPERT: "EXPERT",
