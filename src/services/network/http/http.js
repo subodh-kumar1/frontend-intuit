@@ -28,9 +28,7 @@ class HttpService {
     method: APP_CONSTANTS.HTTP.METHOD.GET,
     headers: {
       "Content-Type": "application/json",
-      "X-RapidAPI-Key": "3ab77b4f8fmsh1f9b3164efb61b8p1bca29jsn732366074205",
-      "X-RapidAPI-Host": "iata-and-icao-codes.p.rapidapi.com",
-      'Access-Control-Allow-Origin': '*',
+      "Access-Control-Allow-Origin": "*",
     },
   };
 
