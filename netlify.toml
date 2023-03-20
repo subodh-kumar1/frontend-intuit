@@ -7,6 +7,13 @@
   from = "/api/*"
   to = "http://springbootapplication-env.eba-3mbm5mj3.us-east-1.elasticbeanstalk.com/api/:splat"
   status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
 
 [[redirects]]
   from = "/*"
