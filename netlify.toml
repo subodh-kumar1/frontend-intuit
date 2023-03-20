@@ -4,6 +4,11 @@
   command = "npm run build"
 
 [[redirects]]
+  from = “/api/*”
+  to = “http://springbootapplication-env.eba-3mbm5mj3.us-east-1.elasticbeanstalk.com/api/:splat"
+  status = 200
+
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200

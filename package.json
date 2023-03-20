@@ -29,6 +29,7 @@
     "@mui/styles": "^5.10.10",
     "@mui/x-data-grid": "^5.17.4",
     "axios": "^0.27.2",
+    "http-proxy-middleware": "^2.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.5",
@@ -66,5 +67,6 @@
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.11.1"
-  }
+  },
+  "proxy": "http://springbootapplication-env.eba-3mbm5mj3.us-east-1.elasticbeanstalk.com"
 }
